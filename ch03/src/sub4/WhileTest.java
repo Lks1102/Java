@@ -5,12 +5,14 @@ package sub4;
  * 내용 : Java 반복문 While 실습하기
  */
 public class WhileTest {
+
 	public static void main(String[] args) {
 		
 		//1~10까지 합
 		
 		int sum = 0;
 		int k = 1;
+		
 		while(k <= 10) {
 			sum += k;
 			k++;
@@ -22,6 +24,7 @@ public class WhileTest {
  		
  		int tot = 0;
  		int i = 1;
+ 		
  		do {
  			if(i % 2 == 0) {
  				tot += i;

@@ -8,14 +8,14 @@ public class test1 {
  */
 	public static void main(String[] args) {
 		char var1 = 'A';
-		byte var2 = 100;
+		int var2 = 100;
 		long var3 = 2147483648L;
 		float var4 = 3.14f;
 		double var5 = 3.14159;
 		boolean var6 = true;
 		boolean var7 = false;
 		String var8 = "hello";
-		Integer var9 = null;
+		String var9 = null;
 		
 		System.out.println("var1 : " + var1);
 		System.out.println("var2 : " + var2);
