@@ -1,6 +1,7 @@
 package All;
 
 public class Parameter {
+	
 	//전달값이 있는 Method
 	
     public static void power(int number) { // Parameter, 매개변수
@@ -25,6 +26,6 @@ public class Parameter {
 
         powerByExp(2,3);
         powerByExp(3,3);
-        powerByExp(10,0);
+        powerByExp(10,5);
     }
 }

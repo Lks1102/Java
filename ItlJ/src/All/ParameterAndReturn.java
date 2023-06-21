@@ -1,6 +1,6 @@
 package All;
 
-public class _04_ParameterAndReturn {
+public class ParameterAndReturn {
     public static int getPower(int number) {
         int result = number * number;
         return result;
