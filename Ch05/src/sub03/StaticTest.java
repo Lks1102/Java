@@ -32,8 +32,6 @@ class increment {
 	
 }
 
-
-
 public class StaticTest {
 
 	public static void main(String[] args) {
@@ -43,10 +41,7 @@ public class StaticTest {
 		increment inc1 = new increment();
 		increment inc2 = new increment();
 		increment inc3 = new increment();
-		
-		
-		
-		
+						
 		
 		Car sonata = new Car("소나타", "흰색", 10);
 		Car avante = new Car("아반떼", "검정색", 20);

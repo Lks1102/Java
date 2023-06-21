@@ -5,7 +5,6 @@ package sub04;
  * 내용 : 싱글톤 객체와 인스턴스 객체 실습
  */
 
-
 class Adder {
 	
 	private static Adder instance = new Adder();

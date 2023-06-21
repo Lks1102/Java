@@ -2,7 +2,7 @@ package sub03;
 /*
  * 날짜 : 2023/06/20
  * 이름 : 이규석
- * 내용 : ?
+ * 내용 : 싱글톤 실습
  */
 public class Calc {
 
