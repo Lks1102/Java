@@ -1,4 +1,4 @@
-package Sub06;
+package Sub08;
 
 public class Sedan extends Car{
 
@@ -14,10 +14,6 @@ public class Sedan extends Car{
 	
 	}
 	
-	@Override
-	public void speedUp(int speed) {
-		this.speed += speed + 20;
-	}
 	
 	public void speedTurbo() {
 		this.speed += 20;
@@ -27,6 +23,18 @@ public class Sedan extends Car{
 	public void show() {
 		super.show();
 		System.out.println("배기량 : " + this.cc + "cc");
+	}
+
+
+	@Override
+	public void speedUp(int speed) {
+		this.speed += speed;
+	}
+
+
+	@Override
+	public void speedDown(int speed) {
+		this.speed -= speed;
 	}
 	
 }

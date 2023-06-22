@@ -1,4 +1,4 @@
-package Sub06;
+package Sub08;
 
 public class Truck extends Car {
 
@@ -14,10 +14,7 @@ public class Truck extends Car {
 		
 	}
 	
-	@Override
-	public void speedUp(int speed) {
-		this.speed += speed -20;
-	}
+
 	
 	public void load(int capacity) {
 		this.capacity = capacity;
@@ -26,6 +23,20 @@ public class Truck extends Car {
 	public void show() {
 		super.show();
 		System.out.println("적재량 : " + this.capacity);
+	}
+
+
+
+	@Override
+	public void speedUp(int speed) {
+		this.speed += speed;
+	}
+
+
+
+	@Override
+	public void speedDown(int speed) {
+		this.speed -= speed;	
 	}
 	
 }

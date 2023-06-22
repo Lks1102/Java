@@ -30,6 +30,8 @@ class BBB extends AAA {
 	public void method2() {
 		System.out.println("BBB ::method2....");
 	}
+	
+	
 	//Overload
 	public void method3(int a) {
 		System.out.println("BBB ::method3....");
