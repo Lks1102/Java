@@ -7,9 +7,7 @@ public class Sedan implements Car{
 	private int speed;
 
 	
-	
 	public Sedan(String name, String color, int speed) {
-		
 		this.name = name;
 		this.color = color;
 		this.speed = speed;

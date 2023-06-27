@@ -18,6 +18,8 @@ public class AbstractTest {
 		//추상클래스는 객체 생성할 수 없음
 		//Car car = new Car("","",0);
 		
+		
+		
 		Car sonata = new Sedan("소나타","흰색",0,2000);
 		
 		sonata.speedUp(100);
