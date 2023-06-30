@@ -13,7 +13,7 @@ import java.util.TreeSet;
 public class Test8 {
 	public static void main(String[] args) {
 		
-		for (int count = 1; count < 5; count++) {
+		for (int count = 1; count <= 5; count++) {
 			System.out.println(makeLotto());
 		}
 	}
