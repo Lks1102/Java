@@ -17,7 +17,7 @@ public class DeSerializeTest {
 	public static void main(String[] args) {
 	
 		
-		String path = "C:\\Users\\issi0\\Desktop\\Apple.txt";
+		String path = "C:\\Users\\issi0\\Desktop\\Apple.dat";
 		
 		try {
 			// 스트림 생성
