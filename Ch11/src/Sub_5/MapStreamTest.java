@@ -68,22 +68,3 @@ public class MapStreamTest {
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

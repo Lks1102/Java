@@ -22,26 +22,3 @@ public class Main {
 	            System.out.print((Math.max(Math.max(a, b), c)*100));
 	    }
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

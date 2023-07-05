@@ -19,8 +19,4 @@ public class AddThread extends Add implements Runnable{
 		
 	}
 
-	
-	
-	
-	
 }

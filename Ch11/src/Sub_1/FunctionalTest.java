@@ -12,6 +12,7 @@ package Sub_1;
 interface A {
 	public void method();
 }
+
 class B implements A {
 	@Override
 	public void method() {
