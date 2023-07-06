@@ -19,16 +19,20 @@ public class Main8 {
 		
 		int T = Integer.parseInt(br.readLine());
 		StringTokenizer st;
-		int a, b;
+		int a, b, c;
 		
 		
 		for (int i = 1; i <= T; i++) {
 			st = new StringTokenizer(br.readLine());
 			a = Integer.parseInt(st.nextToken());
 			b = Integer.parseInt(st.nextToken());
+			c = a + b;
 			
-			bw.wait();
+			bw.write("Case #" + i + ": " + a + " + " + b + " = " + c + "\n");
 		}
+		br.close();
+		bw.flush();
+		bw.close();
 		
 		
 	}
