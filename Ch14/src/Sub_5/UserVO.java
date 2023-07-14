@@ -1,5 +1,7 @@
 package Sub_5;
 
+
+// VO = Value Object
 public class UserVO {
 
 	private String uid;
@@ -37,7 +39,12 @@ public class UserVO {
 	
 	@Override
 	public String toString() {
-		return uid + "," + name + "," + hp + "," + age;
+		
+		if(uid == null) {
+			return "해당하는 사용자가 없습니다.";
+		}else {
+			return uid + "," + name + "," + hp + "," + age;
+		}
 	}
 	
 }

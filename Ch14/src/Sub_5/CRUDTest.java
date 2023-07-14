@@ -65,11 +65,63 @@ public class CRUDTest {
 				for(UserVO user : users) {
 					System.out.println(user);
 				}
+			}else if (answer == 3) {
+				// 검색
+				System.out.print("아이디 검색 : ");
+				String uid = sc.next();
+				
+				UserVO user = UserDAO.getInstance().selectUser(uid);
+				
+				System.out.println("---------검색결과---------");
+				System.out.println(user);
+				System.out.println("---------검색완료---------");
+			}else if (answer == 4) {
+				
+				UserVO vo = new UserVO();
+				
+				System.out.print("수정 회원 아이디 입력) : ");
+				vo.setUid(sc.next());
+				
+				System.out.print("수정 회원 이름 입력 : ");
+				vo.setName(sc.next());
+				
+				System.out.print("수정 회원 휴대폰 입력 : ");
+				vo.setHp(sc.next());
+				
+				System.out.print("수정 회원 나이 입력 : ");
+				vo.setAge(sc.nextInt());
+				
+				
+				int result = UserDAO.getInstance().updateUser(vo);
+				
+				if(result > 0) {
+					System.out.println("수정 완료");
+				}else {
+					System.out.println("수정할 사용자가 존재하지 않습니다.");
+				}
+				
+			}else if (answer == 5) {
+				
+				
+				
+				System.out.print("삭제할 회원 아이디 입력 : ");
+			
+				String uid = sc.next();
+				int result = UserDAO.getInstance().deleteUser(uid);
+				
+				if( result > 0 ) {
+					System.out.println("삭제 완료...");
+				}else {
+					System.out.println("삭제할 회원이 없습니다.");
+				}
+				
+				
 			}
 			
 			
 		}
 		
+		sc.close();
 		
 		System.out.println("회원관리매니저 종료....");
 		
